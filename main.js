@@ -35,5 +35,30 @@ let tickets = 0;
 
 increaseBtn.onclick = function(){
     tickets ++;
-    ticketsLabel.textContent = tickets;
+    ticketsLabel.textContent = `${tickets} Tickets`;
+    updateStats3()
+    updateStatsOP()
 }
+
+decreaseBtn.onclick = function(){
+    tickets --;
+    ticketsLabel.textContent = `${tickets} Tickets`;
+    updateStats3()
+    updateStatsOP()
+}
+
+const updateStats3 = () => {
+    const progress3 = (tickets/200)* 100
+    const progressBar3 = document.getElementById('progressQuest3')
+
+    progressBar3.style.width = `${progress3}%`
+}
+
+const updateStatsOP = () => {
+
+    const progressOP = (tickets/15)* 100
+    const OP = document.getElementById('progress')
+
+    progressBarOP.style.width = `${progressOP}%`
+}
+
