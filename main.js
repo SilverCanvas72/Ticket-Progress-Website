@@ -1,4 +1,3 @@
-
 // Set the date we're counting down to
 var countDownDate = new Date("Aug 31, 2024 16:0:0").getTime();
 
@@ -27,3 +26,14 @@ var x = setInterval(function() {
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
 }, 1000);
+
+
+const decreaseBtn = document.getElementById("decreaseBtn");
+const increaseBtn = document.getElementById("increaseBtn");
+const ticketsLabel = document.getElementById("ticketsAmount");
+let tickets = 0;
+
+increaseBtn.onclick = function(){
+    tickets ++;
+    ticketsLabel.textContent = tickets;
+}

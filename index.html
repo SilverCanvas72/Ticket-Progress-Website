@@ -3,99 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="main.js"></script>
+    
     <link rel="stylesheet" href="style.css">
     <title>Ticket Tracker</title>
 </head>
 <body>
 
-<div class="container">
-    <h1 id="demo"></h1>
+    <div class="container">
+        <div class="top">
+            <div>
+                <h1 id="demo"></h1>
+            </div>
 
- 
-    <div class="ticketsCounter">
-        <button class="plus">+</button>
-        <div class="tickets"> 7 Tickets</div>
-        <button class="minus">-</button>
+            <div class="ticketsCounter">
+                <div class="plus"><button id="decreaseBtn">-</button></div>
+                <div class="ticket"><label id="ticketsAmount">0</label>
+                 <h4>Tickets</h4>
+                </div>
+                <div class="minus"><button id="increaseBtn">+</button></div>
+            </div>
+
+        </div>
+
+        <div class="bottom">
+
+            <div class="bars">  
+
+                <div class="topBars">
+
+                    <div class="OctoPlush">
+                        <h2>octo plush</h2>
+                        <div id="progressBarOctoPlush">
+                            <div id="progressOctoPlush">---</div>
+                        </div>
+                        <div class="octoPlushProgress">
+                            /15
+                        </div>
+                    </div>
+
+                    <div class="Wacom">
+                        <h2>wacom</h2>
+                        <div id="progressBarWacom">
+                            <div id="progressWacom">---</div>              
+                        </div>
+                        <div class="wacomProgress">
+                            /25
+                        </div>
+                    </div>
+                    
+                    <div class="Backpack">
+                        <h2>backpack</h2>
+                        <div id="progressBarBackpack">
+                            <div id="progressBackpack">---</div>
+                        </div>
+                        <div class="backpackProgress">
+                            /50
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bottomBars">
+                    <div class="Keyboard">
+                        <h2>keyboard</h2>
+                        <div id="progressBarKeyboard">
+                            <div id="progressKeyboard">---</div>
+                        </div>
+                        <div class="keyboardProgress">
+                            /75
+                        </div>
+                    </div>
+                    
+                    <div class="FrameworkSeconds">
+                        <h2>framework seconds</h2>
+                        <div id="progressBarFrameworkSeconds">
+                            <div id="progressFrameworkSeconds">---</div>
+                        </div>
+                        <div class="frameworkSecondsProgress">
+                            /120
+                        </div>
+                    </div>
+                    
+                    <div class="Framework13Inch">
+                        <h2>framework 13inch</h2>
+                        <div id="progressBarFramework13Inch">
+                            <div id="progressFramework13Inch">---</div>
+                        </div>
+                        <div class="framework13InchProgress">
+                            /175
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="QuestImage">
+                <img src="quest3.jpg" alt="Picture of Meta Quest 3">
+            </div>
+        </div>
+
+
+        <div class="Quest3">
+            <h1>Quest 3</h1>
+            <div id="progressBarQuest3">
+                <div id="progressQuest3">---</div>
+            </div>
+            <div class="quest3Progress">
+                /200
+            </div>
+        </div>
     </div>
 
-    <div class="bars">  
+    <script src="main.js"></script>
 
-        <div class="OctoPlush">
-            <h2>octo plush</h2>
-            <div id="progressBarOctoPlush">
-                <div id="progressOctoPlush">---</div>
-            </div>
-            <div class="octoPlushProgress">
-                /15
-            </div>
-        </div>
-
-        <div class="Wacom">
-            <h2>wacom</h2>
-            <div id="progressBarWacom">
-                <div id="progressWacom">---</div>              
-            </div>
-            <div class="wacomProgress">
-                /25
-            </div>
-        </div>
-        
-        <div class="Backpack">
-            <h2>backpack</h2>
-            <div id="progressBarBackpack">
-                <div id="progressBackpack">---</div>
-            </div>
-            <div class="backpackProgress">
-                /50
-            </div>
-        </div>
-        
-        <div class="Keyboard">
-            <h2>keyboard</h2>
-            <div id="progressBarKeyboard">
-                <div id="progressKeyboard">---</div>
-            </div>
-            <div class="keyboardProgress">
-                /75
-            </div>
-        </div>
-        
-        <div class="FrameworkSeconds">
-            <h2>framework seconds</h2>
-            <div id="progressBarFrameworkSeconds">
-                <div id="progressFrameworkSeconds">---</div>
-            </div>
-            <div class="frameworkSecondsProgress">
-                /120
-            </div>
-        </div>
-        
-        <div class="Framework13Inch">
-            <h2>framework 13inch</h2>
-            <div id="progressBarFramework13Inch">
-                <div id="progressFramework13Inch">---</div>
-            </div>
-            <div class="framework13InchProgress">
-                /175
-            </div>
-        </div>
-
-    </div>
-    
-    <div class="QuestImage">
-        <img src="quest3.jpg" alt="Picture of Meta Quest 3">
-    </div>
-    
-    <div class="Quest3">
-        <h1>Quest 3</h1>
-        <div id="progressBarQuest3">
-            <div id="progressQuest3">---</div>
-        </div>
-        <div class="quest3Progress">
-            /200
-        </div>
-    </div>
-</div>
 </body>
 </html>

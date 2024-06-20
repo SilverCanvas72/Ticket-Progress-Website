@@ -28,6 +28,7 @@ body{
     border-radius: 25px;
     padding: 20px;
     color: rgb(199, 159, 222);
+    
 }
 
 .ticketsCounter{
@@ -43,14 +44,22 @@ button {
     font-size: 50px;
 }
 
+button:hover {
+    background-color: rgb(151, 120, 169);
+}
+
 .minus {
     padding-left: 20px;
     padding-right: 20px;
 }
 
+
+
 img {
     width:350px;
     border-radius: 25px;
+    padding-top:100px;
+    border-top-left-radius: 25px;
 }
 
 .OctoPlush {
@@ -79,5 +88,62 @@ img {
 
 .Quest3 {
     color:rgb(228, 221, 236);
+}
+
+.ticketsCounter{
+    display: flex;
+    padding-left: 5000px;
+    padding-right: 5000px;
+
+}
+
+.ticketsCounter div {
+    margin: 10px;
+    padding: 10px;
+}
+
+.top{
+    display: flex;
+}
+
+.top div {
+    margin: 10px;
+    padding: 10px;
+}
+
+.ticket {
+    background-color: rgb(105, 127, 206);
+    font-size: 40px;
+    border-style: solid;
+    border-radius: 25px;
+    padding: 20px;
+    display:flex;
+}
+
+.bottom {
+    display: flex;
+}
+
+.bottom div {
+    margin: 10px;
+    padding: 10px;
+}
+
+.topBars {
+    display:flex;
+}
+
+.topBars div {
+    margin: 10px;
+    padding: 10px;
+}
+
+.bottomBars {
+    display:flex;
+}
+
+.Bars div {
+    margin: 10px;
+    padding: 10px;
 }
 
