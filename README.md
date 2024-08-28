@@ -1,5 +1,11 @@
 # Ticket-Progress-Website
-Countdown and tracker to add up your tickets and show you visually how close you are to your goals!
+I made this at the very start of arcade as motiviation towards my prize goals.
+
+<hr>
+
+#### Countdown and tracker to add up your tickets and show you visually how close you are to your goals!
+
+<hr>
 
 Link to page: [silvercanvas72.github.io/Ticket-Progress-Website ](https://silvercanvas72.github.io/Ticket-Progress-Website/)
 
